@@ -1,0 +1,26 @@
+.table {
+  opacity: 0.9;
+  border-radius:6px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.table th {
+  opacity: 0.9;
+  padding: 15px 10px !important;
+  background-color: #212121;
+  color: #EC7149;
+  border-top: none;
+  border-bottom: 3px solid #505050 !important;
+}
+
+.table tr:hover {
+  background-color: rgb(36, 36, 36);
+  border-radius:6px;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

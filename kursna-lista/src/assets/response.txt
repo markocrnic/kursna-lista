@@ -1,0 +1,74 @@
+[
+    {
+        "code": 523,
+        "country": "EU",
+        "currency": "EUR",
+        "amount": 1,
+        "buying": 114.6643,
+        "middle": 117.5521,
+        "selling": 119.4227
+    },
+    {
+        "code": 727,
+        "country": "USA",
+        "currency": "USD",
+        "amount": 1,
+        "buying": 104.6643,
+        "middle": 107.5521,
+        "selling": 109.4227
+    },
+    {
+        "code": 416,
+        "country": "CH",
+        "currency": "CHF",
+        "amount": 1,
+        "buying": 93.6643,
+        "middle": 95.5521,
+        "selling": 97.4227
+    },
+    {
+        "code": 347,
+        "country": "SE",
+        "currency": "SEK",
+        "amount": 1,
+        "buying": 11.6643,
+        "middle": 12.5521,
+        "selling": 13.4227
+    },
+    {
+        "code": 585,
+        "country": "RU",
+        "currency": "RUB",
+        "amount": 1,
+        "buying": 5.6643,
+        "middle": 6.5521,
+        "selling": 7.4227
+    },
+    {
+        "code": 633,
+        "country": "JPN",
+        "currency": "JPY",
+        "amount": 100,
+        "buying": 2.6643,
+        "middle": 3.5521,
+        "selling": 4.4227
+    },
+    {
+        "code": 276,
+        "country": "AUS",
+        "currency": "AUD",
+        "amount": 1,
+        "buying": 102.6643,
+        "middle": 104.5521,
+        "selling": 106.4227
+    },
+    {
+        "code": 369,
+        "country": "CAN",
+        "currency": "CAD",
+        "amount": 1,
+        "buying": 95.6643,
+        "middle": 97.5521,
+        "selling": 99.4227
+    }
+]

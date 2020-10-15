@@ -1,0 +1,79 @@
+<div *ngIf="rendered" [@fade]>
+  <table class="table table-dark">
+    <thead>
+        <tr>
+          <th scope="col">Valuta</th>
+          <th scope="col">Zemlja</th>
+          <th scope="col">Oznaka</th>
+          <th scope="col">Važi za</th>
+          <th scope="col">Kupovni</th>
+          <th scope="col">Srednji</th>
+          <th scope="col">Prodajni</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of listData">
+            <td>{{data.code}}</td>
+            <td><img [src]='"assets/" + data.country + ".png"'> {{data.country}}</td>
+            <td>{{data.currency}}</td>
+            <td>{{data.amount}}</td>
+            <td>{{data.buying}}</td>
+            <td>{{data.middle}}</td>
+            <td>{{data.selling}}</td>
+        </tr>
+        <!--<tr>
+          <td>988</td>
+          <td><img src="assets/EU.png"> EU</td>
+          <td>EUR</td>
+          <td>1</td>
+          <td>114.6449</td>
+          <td>117.5532</td>
+          <td>119.1127</td>
+        </tr>
+        <tr>
+          <td>988</td>
+          <td><img src="assets/EU.png"> EU</td>
+          <td>EUR</td>
+          <td>1</td>
+          <td>114.6449</td>
+          <td>117.5532</td>
+          <td>119.1127</td>
+        </tr>
+        <tr>
+          <td>988</td>
+          <td><img src="assets/EU.png"> EU</td>
+          <td>EUR</td>
+          <td>1</td>
+          <td>114.6449</td>
+          <td>117.5532</td>
+          <td>119.1127</td>
+        </tr>
+        <tr>
+          <td>988</td>
+          <td><img src="assets/EU.png"> EU</td>
+          <td>EUR</td>
+          <td>1</td>
+          <td>114.6449</td>
+          <td>117.5532</td>
+          <td>119.1127</td>
+        </tr>
+        <tr>
+          <td>988</td>
+          <td><img src="assets/EU.png"> EU</td>
+          <td>EUR</td>
+          <td>1</td>
+          <td>114.6449</td>
+          <td>117.5532</td>
+          <td>119.1127</td>
+        </tr>-->
+      </tbody>
+  </table>
+</div>
+<ngx-spinner
+bdColor = "rgba(0, 0, 0, 0.8)"
+size = "medium"
+color = "#fff"
+type = "cog"
+[fullScreen] = "true">
+<p style="color: white" > Loading... </p>
+</ngx-spinner>
