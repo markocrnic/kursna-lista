@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  nbsEndpoint: 'http://kursnalista-kursna-lista.apps.eci.peci.pec/getCurrency'
+  nbsEndpoint: 'http://kursna-lista-kursna-lista.apps.eci.peci.pec/getCurrency'
 };
 
 /*
